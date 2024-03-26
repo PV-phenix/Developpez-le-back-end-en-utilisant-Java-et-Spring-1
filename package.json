@@ -39,6 +39,7 @@
     "@types/jasmine": "4.0.3",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
+    "check-dependencies": "^2.0.0",
     "eslint": "^8.57.0",
     "jasmine-core": "4.3.0",
     "karma": "6.4.0",
