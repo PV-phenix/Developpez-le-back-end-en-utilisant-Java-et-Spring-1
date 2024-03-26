@@ -194,7 +194,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/cdk@17.3.1":
+"@angular/cdk@^14.0.0", "@angular/cdk@>=15.0.0", "@angular/cdk@17.3.1":
   version "17.3.1"
   resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-17.3.1.tgz"
   integrity sha512-pHSN+KlCmdo2u9jY7Yxsry/ZK+EcjOYGzdwxXxcKragMzm7etY3BJiTl4N+qZRuV6cJlMj2PRkij8ABi/HQdEA==
@@ -5855,10 +5855,10 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ngx-material-file-input@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/ngx-material-file-input/-/ngx-material-file-input-4.0.0.tgz"
-  integrity sha512-N0lpuwO1Td3VUR/KnylVi0EObJ2f9s/3jvOUyIGWvy25l4fQOs8zl6cf+OqXIoYLsOHBnC2vVRNugbEuT9CaDQ==
+ngx-material-file-input@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/ngx-material-file-input/-/ngx-material-file-input-4.0.1.tgz"
+  integrity sha512-syYvwlAdbiUkXFRQENfJSYErQLzRY0xnUIIDgwMeOw8uIZp+FyuTrFpOqA2yBVumi/EKdi4afv6fSHrNwrKvbg==
   dependencies:
     tslib "^2.3.0"
 
