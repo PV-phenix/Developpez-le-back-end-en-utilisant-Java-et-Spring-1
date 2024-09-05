@@ -35,6 +35,7 @@ export class LoginComponent  {
           this.sessionService.logIn(user);
           this.router.navigate(['/rentals'])
         });
+
         this.router.navigate(['/rentals'])
       },
       error => this.onError = true

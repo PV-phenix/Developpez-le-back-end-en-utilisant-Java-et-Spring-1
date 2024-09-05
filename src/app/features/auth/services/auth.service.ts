@@ -5,6 +5,7 @@ import { LoginRequest } from '../interfaces/loginRequest.interface';
 import { AuthSuccess  } from '../interfaces/authSuccess.interface';
 import { RegisterRequest } from '../interfaces/registerRequest.interface';
 import { User } from 'src/app/interfaces/user.interface';
+import { HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,8 @@ export class AuthService {
   }
 
   public login(loginRequest: LoginRequest): Observable<AuthSuccess> {
-    return this.httpClient.post<AuthSuccess>(`${this.pathService}/login`, loginRequest);
+
+    return this.httpClient.post<AuthSuccess>(`${this.pathService}/login`, loginRequest );
   }
 
   public me(): Observable<User> {
